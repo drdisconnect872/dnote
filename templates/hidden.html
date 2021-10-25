@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block conent %}
+    <div class="row pt-5 pb-5">
+    <div class="col">
+     <h3>
+         View and Destroy?
+     </h3>
+
+
+        <hr>
+        <p>You are about to read and destroy the note with id <b>{{ hash_key }}</b>.</p>
+         <div class="row ">
+
+          <div class="col-4 " >
+<a href="{% url 'hidden_message' hash_key %}">
+    <button type="submit" class="btn-lg "style="background-color: #960000;color: white;">Yes, Show me</button>
+</a>
+          </div>
+         <div class="col-6">
+         <button class="btn-lg"  style="background-color: gainsboro; float: right"   >No, not now</button>
+         </div>
+     </div>
+    </div>
+    </div>
+{% endblock %}

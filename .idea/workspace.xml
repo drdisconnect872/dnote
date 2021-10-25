@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5fdd80c7-d84e-4c52-afbd-b4728aa77313" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="d0a3d323-d8d7-45a4-9e74-4ce52122b879" />
+  <component name="ProjectId" id="1kCU7mzbeu6z4CqGvWh4NppxQfW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Privnotes\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Privnotes" />
+      <recent name="D:\Privnotes\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Privnotes" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Privnotes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fdd80c7-d84e-4c52-afbd-b4728aa77313" name="Default Changelist" comment="" />
+      <created>1605203902161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605203902161</updated>
+      <workItem from="1605203965216" duration="841000" />
+      <workItem from="1605244293925" duration="16000" />
+      <workItem from="1605469713988" duration="725000" />
+      <workItem from="1605501047801" duration="22355000" />
+      <workItem from="1605545634774" duration="74000" />
+      <workItem from="1605616696662" duration="5399000" />
+      <workItem from="1605686813277" duration="1538000" />
+      <workItem from="1605716806186" duration="3077000" />
+      <workItem from="1605757629669" duration="12401000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="450" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1605205477216">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="450" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1605205477216" />
+    <state x="500" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605513494168">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="500" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1605513494168" />
+    <state x="550" y="173" key="FileChooserDialogImpl" timestamp="1605718714014">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="550" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605718714014" />
+  </component>
+</project>

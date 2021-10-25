@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block conent %}
+    <div class="row pt-5 pb-5">
+    <div class="col">
+     <h3>
+             {% if msg is None %}
+                Create Note
+                 {% else %}
+                 Your Link is created!
+         {% endif %}
+     <button class="btn small" style="float: right"  data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    info
+  </button>
+     </h3>
+
+
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    <p>To get link of your Note:</p>
+    <p>1. Type in Message</p>
+    <p>2. Select hours and days for Note Expiry (Message will be destroyed on Expiry)</p>
+    <p>3. UnCheck Hidden if you want other to view your message without unlock warning</p>
+  </div>
+</div>
+        <hr>
+        {% if msg is not None %}
+            <p>You link is created, You can share message using link below (it is valid till {{ date }} or until viewed).</p>
+            <div class="input-group input-group-lg">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroup-sizing-lg">Note Link </span>
+  </div>
+  <input type="text" aria-disabled="true" value="https://dsrtc-n.xyz/view/{{ msg }}" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+</div>
+            {% else %}
+    <form method="post" novalidate>
+    {% csrf_token %}
+        <div id="div_id_message" class="form-group">
+
+            <label for="id_message" class=" requiredField">
+                Message<span class="asteriskField">*</span>
+            </label>
+
+
+                <div class="">
+                    <textarea name="message" style="background-color:#ffface " cols="40" rows="10" maxlength="10000" class="textarea form-control" required="" id="id_message" spellcheck="false"></textarea>
+                </div>
+        </div>
+
+
+     <div class="row ">
+
+          <div class="col-6 " >
+
+    <button type="submit" class="btn-lg "style="background-color: #960000;color: white;">Create Note</button>
+          </div>
+         <div class="col-6">
+         <button class="btn-lg"  style="background-color: gainsboro; float: right" data-toggle="collapse" data-target="#collapseform"  aria-controls="collapseform">Show Options</button>
+         </div>
+     </div>
+    <div class="row pt-3">
+
+         <div class="col-3">
+         {{ form.destroy_hours|as_crispy_field }}
+         </div>
+
+         <div class="col-3">
+         {{ form.destroy_days|as_crispy_field }}
+         </div>
+
+         <div class="col-3 pt-2">
+         {{ form.hidden|as_crispy_field }}
+         </div>
+
+    </div>
+  </form>
+
+        {% endif %}
+    </div>
+    </div>
+{% endblock %}

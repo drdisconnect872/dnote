@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block conent %}
+    <div class="row pt-5 pb-5">
+    <div class="col">
+     <h3>
+        Invalid Note
+     </h3>
+
+        <hr>
+        <p>The note with id <b>{{ hash_key }}</b> does not exist.</p>
+
+    </div>
+    </div>
+{% endblock %}

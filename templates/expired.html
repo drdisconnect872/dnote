@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block conent %}
+    <div class="row pt-5 pb-5">
+    <div class="col">
+     <h3>
+         Destroyed!
+     </h3>
+
+        <hr>
+        <p>The note with id <b>{{ hash_key }}</b> is already destroyed, as it's expiry time was {{ expiry_date }}.</p>
+
+    </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block conent %}
+    <div class="row pt-5 pb-5">
+    <div class="col">
+     <h3>
+                 Message
+     <button class="btn small" style="float: right"  data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    info
+  </button>
+     </h3>
+
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    <p>To get link of your Note:</p>
+    <p>1. Type in Message</p>
+    <p>2. Select hours and days for Note Expiry (Message will be destroyed on Expiry)</p>
+    <p>3. UnCheck Hidden if you want other to view your message without unlock warning</p>
+  </div>
+</div>
+        <hr>
+            <div class="form-group">
+    <label for="exampleFormControlTextarea1">This message was deleted! You will no longer be able to view it again. If you want to keep it, make a copy.</label>
+    <textarea class="form-control" readonly style="background-color: #ffface"   id="exampleFormControlTextarea1" rows="10">{{ msg }}</textarea>
+  </div>
+    </div>
+    </div>
+{% endblock %}
