@@ -26,7 +26,7 @@ SECRET_KEY = 'kayl#q0w6nz*ln=ut%(s3+*pq1x_4hx)b59e)((vivm8koijrh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['xi7.in','137.184.194.162','localhost']
 
 
 # Application definition
@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'Privnotes.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+#       'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
